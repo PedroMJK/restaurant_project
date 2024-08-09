@@ -1,5 +1,5 @@
 # restaurant_project
-
+Projeto Desenvolvido com  VueJs.
 ## Project setup
 ```
 npm install
