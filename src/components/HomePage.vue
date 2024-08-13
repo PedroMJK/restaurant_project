@@ -1,6 +1,6 @@
 <template>
     <div>
-         <h1>Hello, Use. Welcome to home page</h1>
+         <h1>Hello, User. Welcome to home page</h1>
     </div>
 </template>
 
@@ -10,8 +10,8 @@
         mounted() {
             let user = localStorage.getItem('user-info');
 
-            if(user){
-                this.$router.push({name: 'Home'})
+            if(!user){
+                this.$router.push({name: 'SignUp'})
             }
         }
     }
